@@ -1,8 +1,10 @@
 var React = require('react');
+var starData = require('../data/starData');
+var StarChart = require('./StarChart.jsx');
 
 module.exports = React.createClass({
   render: function() {
-    return <h1> Hello, World! </h1>
+    return <StarChart starData={starData} />
   }
 });
 
